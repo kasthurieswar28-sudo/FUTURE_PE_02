@@ -37,9 +37,9 @@ const Hero = () => {
 
           {/* Subheading */}
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed animate-fade-in" style={{ animationDelay: '0.2s' }}>
-            Passionate about crafting intelligent AI solutions through prompt engineering, 
-            machine learning, and deep learning. I transform complex problems into elegant, 
-            real-world applications that make a difference.
+            I build intelligent AI solutions using prompt engineering, machine learning, and cloud computing.
+            Passionate about designing effective prompts, deploying scalable AI systems, and continuously 
+            learning modern cloud technologies to solve real-world problems.
           </p>
 
           {/* CTA Buttons */}
