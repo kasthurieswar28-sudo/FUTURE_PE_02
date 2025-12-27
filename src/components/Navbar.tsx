@@ -63,14 +63,6 @@ const Navbar = () => {
             ))}
           </div>
 
-          {/* CTA Button */}
-          <a
-            href="#contact"
-            onClick={(e) => handleNavClick(e, '#contact')}
-            className="hidden md:inline-flex gradient-bg text-primary-foreground px-5 py-2.5 rounded-full font-medium text-sm hover:opacity-90 transition-opacity"
-          >
-            Hire Me
-          </a>
 
           {/* Mobile Menu Button */}
           <button
@@ -96,13 +88,6 @@ const Navbar = () => {
                   {link.label}
                 </a>
               ))}
-              <a
-                href="#contact"
-                onClick={(e) => handleNavClick(e, '#contact')}
-                className="gradient-bg text-primary-foreground px-5 py-2.5 rounded-full font-medium text-sm text-center hover:opacity-90 transition-opacity"
-              >
-                Hire Me
-              </a>
             </div>
           </div>
         )}
