@@ -46,20 +46,13 @@ const About = () => {
             {/* Text content */}
             <div>
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                As an AI and Prompt Engineering Intern, I am dedicated to exploring the 
-                frontiers of artificial intelligence. My journey involves mastering the art 
-                of communicating with AI models to achieve precise, useful, and innovative outputs.
+                I am Kasthuri Eswar, an AI and Prompt Engineering enthusiast with a strong interest in building intelligent, practical, and scalable solutions. My work focuses on understanding how AI systems interpret instructions and designing effective prompts that produce accurate, meaningful, and creative outputs. I enjoy exploring artificial intelligence to solve real-world problems and continuously improve how humans interact with AI models.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                I specialize in developing intelligent solutions using Python, machine learning 
-                frameworks, and natural language processing techniques. My goal is to bridge 
-                the gap between complex AI capabilities and real-world applications that benefit 
-                users and businesses alike.
+                I have hands-on experience with Python and C++, using Python extensively for AI workflows, automation, data analysis, and machine learning tasks, while C++ strengthens my core programming skills, logical thinking, and performance-oriented development. I actively work with concepts such as machine learning, natural language processing, and model fine-tuning to create reliable and efficient AI-driven solutions.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                With a strong foundation in deep learning and model fine-tuning, I am constantly 
-                learning and adapting to stay at the cutting edge of AI technology. I am eager 
-                to collaborate on projects that push boundaries and create meaningful impact.
+                Alongside AI, I am learning cloud computing to understand how intelligent applications are deployed, managed, and scaled in production environments. My goal is to combine AI, prompt engineering, and cloud technologies to build end-to-end solutions that are not only innovative but also practical and impactful. I am eager to contribute through internships or freelance opportunities while continuously learning and growing in the AI domain.
               </p>
             </div>
 
