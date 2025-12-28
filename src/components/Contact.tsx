@@ -1,9 +1,11 @@
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import { Mail, Send, MapPin, Linkedin, Github } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
   const { toast } = useToast();
+  const formRef = useRef<HTMLFormElement>(null);
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -22,16 +24,29 @@ const Contact = () => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1000));
+    try {
+      await emailjs.sendForm(
+        'service_fnd8m2q',
+        'template_a4262oc',
+        formRef.current!,
+        'NNhmfc0rA6OsbsRw8'
+      );
 
-    toast({
-      title: "Message sent!",
-      description: "Thank you for reaching out. I'll get back to you soon!",
-    });
+      toast({
+        title: "Message sent!",
+        description: "Thank you for reaching out. I'll get back to you soon!",
+      });
 
-    setFormData({ name: '', email: '', message: '' });
-    setIsSubmitting(false);
+      setFormData({ name: '', email: '', message: '' });
+    } catch (error) {
+      toast({
+        title: "Error",
+        description: "Failed to send message. Please try again.",
+        variant: "destructive",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -104,7 +119,7 @@ const Contact = () => {
 
             {/* Contact form */}
             <div className="lg:col-span-3">
-              <form onSubmit={handleSubmit} className="bg-card rounded-2xl border border-border p-8">
+              <form ref={formRef} onSubmit={handleSubmit} className="bg-card rounded-2xl border border-border p-8">
                 <div className="grid sm:grid-cols-2 gap-6 mb-6">
                   <div>
                     <label htmlFor="name" className="block text-sm font-medium mb-2">
