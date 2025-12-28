@@ -23,9 +23,9 @@ const skills = [
     color: 'from-violet-500 to-purple-600',
   },
   {
-    icon: Languages,
-    name: 'Natural Language Processing',
-    description: 'Processing and understanding human language',
+    icon: BarChart3,
+    name: 'Data Structures & Algorithms',
+    description: 'Designing optimized solutions using efficient data structures and algorithmic thinking',
     color: 'from-emerald-500 to-teal-600',
   },
   {
@@ -35,27 +35,27 @@ const skills = [
     color: 'from-amber-500 to-orange-600',
   },
   {
-    icon: Network,
-    name: 'Deep Learning',
-    description: 'Neural networks and deep learning architectures',
-    color: 'from-rose-500 to-pink-600',
-  },
-  {
     icon: Settings,
     name: 'Model Fine-Tuning',
     description: 'Optimizing pre-trained models for specific tasks',
     color: 'from-cyan-500 to-blue-600',
   },
   {
+    icon: Network,
+    name: 'Deep Learning',
+    description: 'Neural networks and deep learning architectures',
+    color: 'from-rose-500 to-pink-600',
+  },
+  {
     icon: Zap,
-    name: 'AI Automation',
-    description: 'Automating workflows with AI solutions',
+    name: 'C++ Programming',
+    description: 'Efficient, low-level programming for performance-critical applications and system logic',
     color: 'from-fuchsia-500 to-violet-600',
   },
   {
-    icon: BarChart3,
-    name: 'Data Analysis',
-    description: 'Extracting insights from complex datasets',
+    icon: Settings,
+    name: 'AI Automation',
+    description: 'Automating workflows with AI solutions',
     color: 'from-lime-500 to-green-600',
   },
 ];
