@@ -3,9 +3,9 @@ import { ExternalLink, Github, Globe, Bot } from 'lucide-react';
 const projects = [
   {
     id: 1,
-    title: 'AI Portfolio Website',
-    description: 'A modern, responsive portfolio website built with React and TypeScript, showcasing AI and prompt engineering expertise. Features smooth animations, clean design, and an integrated AI chatbot for visitor assistance.',
-    tags: ['React', 'TypeScript', 'Tailwind CSS', 'AI Integration'],
+    title: 'Student Management System',
+    description: 'A web-based student management system designed to manage student records, attendance, and academic details efficiently. Built with a clean, responsive interface and backend logic to handle data securely, streamline workflows, and simplify administration for educational institutions.',
+    tags: ['Python', 'Database Management', 'Web Development', 'CRUD Operations'],
     icon: Globe,
     gradient: 'from-primary to-accent',
   },
