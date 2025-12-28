@@ -33,12 +33,8 @@ const About = () => {
         <div className="max-w-6xl mx-auto">
           {/* Section header */}
           <div className="text-center mb-16">
-            <span className="text-sm font-semibold text-accent uppercase tracking-wider">
+            <h2 className="font-display text-5xl md:text-6xl font-bold gradient-text">
               About Me
-            </span>
-            <h2 className="font-display text-4xl md:text-5xl font-bold mt-4 mb-6">
-              Passionate About{' '}
-              <span className="gradient-text">AI Innovation</span>
             </h2>
           </div>
 
@@ -46,13 +42,13 @@ const About = () => {
             {/* Text content */}
             <div>
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                I am Kasthuri Eswar, an AI and Prompt Engineering enthusiast with a strong interest in building intelligent, practical, and scalable solutions. My work focuses on understanding how AI systems interpret instructions and designing effective prompts that produce accurate, meaningful, and creative outputs. I enjoy exploring artificial intelligence to solve real-world problems and continuously improve how humans interact with AI models.
+                I'm Kasthuri Eswar, an AI and Prompt Engineering enthusiast passionate about building intelligent and practical solutions. I focus on designing effective prompts that help AI models generate accurate, useful, and creative outputs.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                I have hands-on experience with Python and C++, using Python extensively for AI workflows, automation, data analysis, and machine learning tasks, while C++ strengthens my core programming skills, logical thinking, and performance-oriented development. I actively work with concepts such as machine learning, natural language processing, and model fine-tuning to create reliable and efficient AI-driven solutions.
+                I work with Python and C++, using Python for AI workflows, automation, and machine learning, while C++ strengthens my programming fundamentals and problem-solving skills. I have experience with machine learning concepts and natural language processing.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Alongside AI, I am learning cloud computing to understand how intelligent applications are deployed, managed, and scaled in production environments. My goal is to combine AI, prompt engineering, and cloud technologies to build end-to-end solutions that are not only innovative but also practical and impactful. I am eager to contribute through internships or freelance opportunities while continuously learning and growing in the AI domain.
+                I'm also exploring cloud computing to understand how AI applications are deployed and scaled in real-world environments. I'm actively seeking internship or freelance opportunities to learn, contribute, and grow in the AI field.
               </p>
             </div>
 
