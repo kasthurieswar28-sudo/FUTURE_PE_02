@@ -25,12 +25,14 @@ const Contact = () => {
     setIsSubmitting(true);
 
     try {
-      await emailjs.sendForm(
+      const result = await emailjs.sendForm(
         'service_fnd8m2q',
         'template_a4262oc',
         formRef.current!,
         'NNhmfc0rA6OsbsRw8'
       );
+      
+      console.log('EmailJS Success:', result);
 
       toast({
         title: "Message sent!",
@@ -38,10 +40,11 @@ const Contact = () => {
       });
 
       setFormData({ name: '', email: '', message: '' });
-    } catch (error) {
+    } catch (error: any) {
+      console.error('EmailJS Error:', error);
       toast({
         title: "Error",
-        description: "Failed to send message. Please try again.",
+        description: error?.text || "Failed to send message. Please try again.",
         variant: "destructive",
       });
     } finally {
