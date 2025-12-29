@@ -18,7 +18,7 @@ const initialMessages: Message[] = [
 const botResponses: { [key: string]: string } = {
   skills: "Kasthuri specializes in Prompt Engineering, Machine Learning, NLP, Python Programming, Deep Learning, Model Fine-Tuning, AI Automation, and Data Analysis. These skills enable building intelligent AI solutions.",
   projects: "Kasthuri has worked on exciting projects including an AI Portfolio Website (the one you're viewing!) and an AI Chatbot Assistant. Both showcase expertise in modern web development and AI integration.",
-  contact: "You can reach out through the Contact section on this page! Fill out the form with your name, email, and message. Kasthuri is open to internship opportunities, freelance work, and collaborations.",
+  contact: "You can reach out through the Contact section on this page! Fill out the form with your name, email, and message. You can also connect via LinkedIn and GitHub. Kasthuri is open to internship opportunities, freelance work, and collaborations.",
   experience: "As an AI & Prompt Engineering Intern, Kasthuri focuses on crafting intelligent AI solutions, optimizing prompts for language models, and building real-world applications using machine learning.",
   about: "Kasthuri Eswar is a passionate AI and Prompt Engineering Intern dedicated to exploring the frontiers of artificial intelligence. The focus is on bridging complex AI capabilities with practical applications.",
   hello: "Hello! Great to meet you! I'm here to help you learn more about Kasthuri's work and skills. What would you like to know?",
