@@ -16,14 +16,14 @@ const initialMessages: Message[] = [
 ];
 
 const botResponses: { [key: string]: string } = {
-  skills: "Kasthuri specializes in Prompt Engineering, Machine Learning, NLP, Python Programming, Deep Learning, Model Fine-Tuning, AI Automation, and Data Analysis. These skills enable building intelligent AI solutions.",
-  projects: "Kasthuri has worked on exciting projects including an AI Portfolio Website (the one you're viewing!) and an AI Chatbot Assistant. Both showcase expertise in modern web development and AI integration.",
+  skills: "Kasthuri specializes in Prompt Engineering, Machine Learning, Data Structures & Algorithms, Python Programming, Model Fine-Tuning, Deep Learning, C++ Programming, and AI Automation. Python is used for AI workflows and machine learning, while C++ strengthens programming fundamentals.",
+  projects: "Kasthuri has worked on 2 main projects: 1) Student Management System - A web-based system to manage student records, attendance, and academic details using Python, database management, and CRUD operations. 2) AI Chatbot Assistant - An intelligent conversational AI powered by advanced language models with NLP and API integration.",
   contact: "You can reach out through the Contact section on this page! Fill out the form with your name, email, and message. You can also connect via LinkedIn and GitHub. Kasthuri is open to internship opportunities, freelance work, and collaborations.",
-  experience: "As an AI & Prompt Engineering Intern, Kasthuri focuses on crafting intelligent AI solutions, optimizing prompts for language models, and building real-world applications using machine learning.",
-  about: "Kasthuri Eswar is a passionate AI and Prompt Engineering Intern dedicated to exploring the frontiers of artificial intelligence. The focus is on bridging complex AI capabilities with practical applications.",
+  experience: "As an AI & Prompt Engineering Intern, Kasthuri focuses on crafting intelligent AI solutions, designing effective prompts for AI models, and building real-world applications using machine learning and Python.",
+  about: "Kasthuri Eswar is an AI and Prompt Engineering enthusiast passionate about building intelligent solutions. Works with Python for AI workflows and C++ for programming fundamentals. Experienced in machine learning, NLP, and currently exploring cloud computing. Actively seeking internship or freelance opportunities.",
   hello: "Hello! Great to meet you! I'm here to help you learn more about Kasthuri's work and skills. What would you like to know?",
   hi: "Hi there! How can I assist you today? Feel free to ask about skills, projects, or how to get in touch!",
-  default: "I'd be happy to help! You can ask me about Kasthuri's skills, projects, experience, or how to get in touch. What would you like to know?",
+  default: "I'd be happy to help! You can ask me about Kasthuri's skills (Python, ML, Prompt Engineering), projects (Student Management System, AI Chatbot), experience, or how to get in touch. What would you like to know?",
 };
 
 const getResponse = (input: string): string => {
