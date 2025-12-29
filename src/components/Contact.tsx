@@ -1,5 +1,5 @@
 import { useState, useRef } from 'react';
-import { Mail, Send, MapPin, Linkedin, Github } from 'lucide-react';
+import { Send, Linkedin, Github } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 import emailjs from '@emailjs/browser';
 
@@ -76,30 +76,9 @@ const Contact = () => {
           </div>
 
           <div className="grid lg:grid-cols-5 gap-12">
-            {/* Contact info */}
+            {/* Social links */}
             <div className="lg:col-span-2 space-y-8">
-              <div className="flex items-start gap-4">
-                <div className="w-12 h-12 rounded-xl gradient-bg flex items-center justify-center shrink-0">
-                  <Mail className="w-6 h-6 text-primary-foreground" />
-                </div>
-                <div>
-                  <h3 className="font-display font-semibold text-lg mb-1">Email</h3>
-                  <p className="text-muted-foreground">kasthurieswar28@gmail.com</p>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-4">
-                <div className="w-12 h-12 rounded-xl gradient-bg flex items-center justify-center shrink-0">
-                  <MapPin className="w-6 h-6 text-primary-foreground" />
-                </div>
-                <div>
-                  <h3 className="font-display font-semibold text-lg mb-1">Location</h3>
-                  <p className="text-muted-foreground">Available for Remote Work</p>
-                </div>
-              </div>
-
-              {/* Social links */}
-              <div className="pt-6">
+              <div>
                 <h3 className="font-display font-semibold text-lg mb-4">Follow Me</h3>
                 <div className="flex items-center gap-4">
                   <a
