@@ -61,21 +61,6 @@ const Hero = () => {
             </a>
           </div>
 
-          {/* Stats */}
-          <div className="grid grid-cols-3 gap-8 mt-20 max-w-lg mx-auto animate-fade-in" style={{ animationDelay: '0.6s' }}>
-            <div className="text-center">
-              <div className="font-display text-3xl md:text-4xl font-bold gradient-text">5+</div>
-              <div className="text-sm text-muted-foreground mt-1">AI Projects</div>
-            </div>
-            <div className="text-center">
-              <div className="font-display text-3xl md:text-4xl font-bold gradient-text">1000+</div>
-              <div className="text-sm text-muted-foreground mt-1">Prompts Crafted</div>
-            </div>
-            <div className="text-center">
-              <div className="font-display text-3xl md:text-4xl font-bold gradient-text">100%</div>
-              <div className="text-sm text-muted-foreground mt-1">Dedication</div>
-            </div>
-          </div>
         </div>
       </div>
 
