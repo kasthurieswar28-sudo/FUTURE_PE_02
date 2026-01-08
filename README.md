@@ -25,7 +25,5 @@ It provides a clean and simple interface to present my profile and work.
 ## Purpose
 This project was developed as part of an internship task to demonstrate the ability to use AI tools for building a functional and professional portfolio website.
 
-## Status
-Completed ✅
 
 
